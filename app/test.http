@@ -1,0 +1,12 @@
+POST http://localhost:5000/v1/blog/delete
+Content-Type: application/json
+Authorization: {
+Token
+}
+
+{
+  "blogId": 1
+}
+
+###
+
